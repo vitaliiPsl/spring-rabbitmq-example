@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rabbitmq-example
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: dev
+    password: dev123
+logging:
+  level:
+    com.example: DEBUG
+server:
+  port: 0
